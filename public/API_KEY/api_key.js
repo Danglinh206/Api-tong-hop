@@ -20,12 +20,12 @@ exports.index = async(req, res, next) => {
         else {
             if (req.query.apikey == 'TuanDeepTry_140703') {
                 var type = 'premium';
-                var apikey = 'TuanDeepTry_';
+                var apikey = 'culo_';
                 var request = 'infinite';
             } else {
                 var type = 'free';
                 var request = 100;
-                var apikey = 'TuanDeepTry_';
+                var apikey = 'VLjnh_';
             }
             const data = require('./data/data_apikey.json');
             var random = '1234567890';
